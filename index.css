@@ -11,6 +11,7 @@ body{
         height: 90%;
         width: 90%;
         overflow: hidden;
+        display: flex;
         border: 2px #1D293A solid;
 }
 .dflex{
@@ -28,7 +29,9 @@ body{
         
 }
 .main_container .right{
+        height: 100%;
         width: 70%;
+        padding: 10px;
 }
 .icon_container{
         width: 250px;
@@ -56,4 +59,32 @@ body{
 .icon:hover{
         background: #6C63FF;
         color: white;
+}
+.cal{
+        height:100%;
+        width: 500px;
+        margin: auto;
+}
+.result{
+        text-align: right;
+        font-size: 60px;
+        margin-right: 70px;
+}
+.cal-btn button{
+        height: 85px;
+        width: 85px;
+        border-radius: 0px;
+        background: #354357;
+        color: white;
+        font-size: 35px;
+}
+.cal-btn {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+}
+.zero{
+        width: 100% !important;
+        grid-column: 1/3;
 }
