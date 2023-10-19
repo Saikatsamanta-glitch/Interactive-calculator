@@ -67,8 +67,11 @@ body{
 }
 .result{
         text-align: right;
-        font-size: 60px;
-        margin-right: 70px;
+        font-size: 50px;
+        height: 60px;
+        width: 400px;
+        margin-bottom: 20px;
+       margin-left: 50px;
 }
 .cal-btn button{
         height: 85px;
